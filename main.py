@@ -4,6 +4,10 @@ import streamlit as st
 #from dotenv import load_dotenv
 #load_dotenv()
 from langchain.chat_models import ChatOpenAI
+from streamlit_extras.buy_me_a_coffee import button
+
+button(username="HenryOSH", floating=True, width=221)
+
 chat_model = ChatOpenAI()
 
 st.title('인공지능 시인')
